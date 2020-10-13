@@ -14,7 +14,7 @@ class BirthdayCard : AppCompatActivity() {
         setContentView(R.layout.activity_birthday_card)
 
         val name = intent.getStringExtra(NAME_EXTRA)
-        birthdayWish.text ="Happy Birthday \n $name !"
+        birthdayWish.text ="Happy Birthday \n        $name!"
 
     }
-}
+}  
